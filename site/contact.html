@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Kontakt:</h2>
+        </div>
+        <div class="col-sm-8">
+            <div class="mb-3">
+                <form id="contact-form" name="contact-form" action="script/mail.php" method="POST">
+                    <div class="mb-4">
+                        <label for="" class="form-label"></label>
+                        <input type="text" id="name" name="name" placeholder="Max Mustermann" required class="form-control" aria-describedby="helpId">
+
+                        <label for="" class="form-label"></label>
+                        <input type="email" class="form-control" aria-describedby="emailHelpId" id="email" name="email" placeholder="max.mustermann@email.com" required>
+
+                        <label for="" class="form-label"></label>
+                        <input type="text" class="form-control" aria-describedby="helpId" id="subject" name="subject" placeholder="Betreff" required>
+
+                        <label for="" class="form-label"></label>
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Deine Nachricht" required></textarea>
+
+                        <button type="submit" onclick="document.getElementById('contact-form').submit();" class="btn">Absenden</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-2">
+            <h5>Kontaktdaten:</h5>
+            <img class="float-start img-fluid" src="img/Muster_AG_Logo.png" alt="Muster AG sagt danke">
+            <p>Danke für Ihren Besuch auf der Website. Bitte hinterlassen Sie einen Bewertung bei Mail.</p>
+            <p>
+                Telefonnummer: <br> E-Mail: <br> Adresse: <br>
+            </p>
+        </div>
+    </div>
+</div>
